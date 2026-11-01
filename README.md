@@ -52,7 +52,7 @@ bash examples/check_cert.sh output-signed.apk
 
 | 文档 | 内容 |
 |---|---|
-| [docs/00-背景-三道门.md](docs/00-背景-三道门.md) | 安装门 / 卸载门 / VHAL 门的区别与关系 |
+| [docs/00-背景-两道门.md](docs/00-背景-两道门.md) | 安装门 / 卸载门的区别与关系 |
 | [docs/01-发现-怎么定位到序列号校验.md](docs/01-发现-怎么定位到序列号校验.md) | 从"装不上"到定位 `isCheckAuth` 的完整过程 |
 | [docs/02-原理-两道门的校验逻辑.md](docs/02-原理-两道门的校验逻辑.md) | 序列号比对、白名单 RSA 验签、为什么改包名没用 |
 | [docs/03-实现-一步步做白名单签名.md](docs/03-实现-一步步做白名单签名.md) | 提取序列号、生成证书、zipalign、apksigner、验证 |
@@ -65,7 +65,7 @@ bash examples/check_cert.sh output-signed.apk
 qiyuan-whitelist-install/
 ├── README.md
 ├── docs/
-│   ├── 00-背景-三道门.md
+│   ├── 00-背景-两道门.md
 │   ├── 01-发现-怎么定位到序列号校验.md
 │   ├── 02-原理-两道门的校验逻辑.md
 │   ├── 03-实现-一步步做白名单签名.md
